@@ -84,7 +84,9 @@ def get_opening():
     elif fen == book[31]:
         print("Polish Opening") 
     elif fen == book[32]:
-        print("Grob Opening")                                           
+        print("Grob Opening")
+    else:
+        print("Opening not found in book")
                                    
 
         
